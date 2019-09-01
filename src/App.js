@@ -7,19 +7,20 @@ import Projects from "./Componets/MyProjects/MyProjects";
 import Slogan from "./Componets/Slogan/Slogan";
 import Contacts from "./Componets/Contacts/Contacts";
 import Footer from "./Componets/Footer/Footer";
+import particlesOpts from "./Particles/Particles";
+import Particles from "react-particles-js";
 
 function App() {
   return (
     <div className="App">
-      <div className={"portfolio"}>
-          <Header/>
-          <Main/>
-          <Skils/>
-          <Projects/>
-          <Slogan/>
-          <Contacts/>
-          <Footer/>
-      </div>
+      <Particles className={"particles"} params={particlesOpts} />
+      <Header />
+      <Main />
+      <Skils />
+      <Projects />
+      <Slogan />
+      <Contacts />
+      <Footer />
     </div>
   );
 }

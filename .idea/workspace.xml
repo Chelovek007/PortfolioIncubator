@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33726a4a-0957-4754-b51f-4d97b12976c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Particles/Particles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/MyProjects/MyProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/MyProjects/MyProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/MyProjects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/MyProjects/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Skills/Skills.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Titles/Titles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Titles/Titles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Titles/Titles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Titles/Titles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +109,7 @@
       <workItem from="1566925955092" duration="22000" />
       <workItem from="1566926029713" duration="4376000" />
       <workItem from="1567015460000" duration="25000" />
-      <workItem from="1567341349249" duration="6576000" />
+      <workItem from="1567341349249" duration="14077000" />
     </task>
     <task id="LOCAL-00001" summary="Added portfolio (lesson 3 almost finished)">
       <created>1567342019493</created>
@@ -113,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567342019493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 3 finished">
+      <created>1567350128373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567350128373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added portfolio (lesson 3 almost finished)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added portfolio (lesson 3 almost finished)" />
+    <MESSAGE value="lesson 3 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 finished" />
   </component>
 </project>

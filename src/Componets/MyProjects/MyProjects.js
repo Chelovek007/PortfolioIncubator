@@ -1,13 +1,15 @@
 import React from "react";
 import styles from "./Projects.module.css";
-import {H2,H3} from "../Titles/Titles";
-
+import { H2, H3 } from "../Titles/Titles";
+import todolist from "./../../Assets/imgs/todolist.jpg";
 
 const Project = props => {
+  const todolistImg = {
+    backgroundImage: `url(${todolist})`
+  };
   return (
     <div className={styles.project}>
-      <div className={styles.imgProject}>
-        <div><div className={styles.btn}>View</div></div>
+      <div className={styles.imgProject} style={todolistImg}>
       </div>
       <H3>{props.title}</H3>
       <p className={styles.description}>

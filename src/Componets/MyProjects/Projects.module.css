@@ -3,6 +3,7 @@
   background-color: #1f1f20;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .project {
   background: #4a4b50;
@@ -18,13 +19,14 @@
   margin-left: 15px;
 }
 .imgProject {
+  cursor: pointer;
   margin: auto;
   height: 300px;
   background-color: gray;
-  background-image: url(../../Assets/imgs/todolist.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
+  transition: .3s ease-in-out;
 }
 .imgProject > div {
   background: #1f1f20;
@@ -40,12 +42,9 @@
   letter-spacing: 1px;
   font-size: 20px;
 }
-.btn {
-  position: relative;
-  z-index: 10;
-  background: wheat;
-  padding: 5px 30px;
-  color: #1f1f20;
+.imgProject:hover {
+  filter: blur(2px);
+  transition: filter .3s ease-in-out;
 }
 .btn:hover {
   color: orangered;

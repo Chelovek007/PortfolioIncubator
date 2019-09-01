@@ -3,6 +3,7 @@
   background-color: #1f1f20;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .container {
   width: 80%;
@@ -37,6 +38,10 @@
   background: #252527;
   caret-color: #74757a;
   color: #74757a;
+}
+.formArea:focus, .messageArea:focus {
+  border: 1px solid #252527;
+  transition: border 0.35s;
 }
 .btnSubmit {
   background: transparent;

@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Main.module.css";
+import Particles from "react-particles-js";
+import particlesOpts from "./../../Particles/Particles"
 
 function Main() {
   return (
