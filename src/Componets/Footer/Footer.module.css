@@ -13,7 +13,7 @@
   align-items: center;
 }
 .blocks {
-  width: 35%;
+  width: 25%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -21,29 +21,56 @@
 .blocks > div {
   height: 50px;
   width: 50px;
-  background: gray;
+  border: 1px solid;
+  border-radius: 50%;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.blocks > div > a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.blocks img {
+  width: 50%;
+}
+.blocks div:first-child img {
+  width: 35%;
 }
 .name {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
   font-size: 22px;
   font-weight: 700;
+  margin-bottom: 20px;
+}
+.container > p:last-child {
+  margin-top: 40px;
 }
 
-@media screen and (max-width: 1000px ) {
+
+@media screen and (max-width: 1300px ) {
   .blocks {
-    width: 45%;
+    width: 40%;
   }
+  .blocks > div {
+    margin-right: 2px;
+  }
+  .blocks > div:last-child {
+    margin-right: 0px;
+  }
+
 }
 @media screen and (max-width: 900px ) {
   .blocks {
-    width: 60%;
+    width: 55%;
   }
 }
 @media screen and (max-width: 600px ) {
   .blocks {
-    width: 80%;
+    width: 90%;
   }
 }
 

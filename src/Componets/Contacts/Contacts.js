@@ -16,7 +16,7 @@ function Contacts() {
             className={styles.messageArea}
             placeholder="Your message"
           ></textarea>
-          <button className={styles.btnSubmit}>Отправить</button>
+          <button className={styles.btnSubmit}>Send Message</button>
         </form>
       </div>
     </div>
