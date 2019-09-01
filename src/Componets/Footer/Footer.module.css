@@ -1,0 +1,49 @@
+.footer {
+  min-height: 30vh;
+  background-color: #252527;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.blocks {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blocks > div {
+  height: 50px;
+  width: 50px;
+  background: gray;
+  box-sizing: border-box;
+}
+.name {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1000px ) {
+  .blocks {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 900px ) {
+  .blocks {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px ) {
+  .blocks {
+    width: 80%;
+  }
+}
+

@@ -1,0 +1,40 @@
+.skills {
+  min-height: 700px;
+  background-color: #252527;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skill {
+  width: 300px;
+  margin: 10px 10px 100px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.imgSkill {
+  display: flex;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background: rgba(255,255,255,0.1);
+  transform: rotate(45deg);
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.imgSkill > img {
+  transform: rotate(-45deg);
+  width: 80%;
+}
+

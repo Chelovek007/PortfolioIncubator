@@ -1,0 +1,16 @@
+.slogan {
+  height: 20vh;
+  background-color: #252527;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  width: 80%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
