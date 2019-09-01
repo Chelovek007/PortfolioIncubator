@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33726a4a-0957-4754-b51f-4d97b12976c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Particles/Particles.js" afterDir="false" />
+    <list default="true" id="33726a4a-0957-4754-b51f-4d97b12976c8" name="Default Changelist" comment="Added &quot;react-particles-js&quot; for main page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Header/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Header/NavMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/MyProjects/MyProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/MyProjects/MyProjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/MyProjects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/MyProjects/Projects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Titles/Titles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Titles/Titles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Particles/Particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Particles/Particles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +112,7 @@
       <workItem from="1566925955092" duration="22000" />
       <workItem from="1566926029713" duration="4376000" />
       <workItem from="1567015460000" duration="25000" />
-      <workItem from="1567341349249" duration="14077000" />
+      <workItem from="1567341349249" duration="15830000" />
     </task>
     <task id="LOCAL-00001" summary="Added portfolio (lesson 3 almost finished)">
       <created>1567342019493</created>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567350128373</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added &quot;react-particles-js&quot; for main page">
+      <created>1567358187225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567358187225</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added portfolio (lesson 3 almost finished)" />
     <MESSAGE value="lesson 3 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 finished" />
+    <MESSAGE value="Added &quot;react-particles-js&quot; for main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;react-particles-js&quot; for main page" />
   </component>
 </project>

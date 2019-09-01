@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Main.module.css";
 import Particles from "react-particles-js";
-import particlesOpts from "./../../Particles/Particles"
+import particlesOpts from "./../../Particles/Particles";
 
 function Main() {
   return (
@@ -9,11 +9,13 @@ function Main() {
       <div className={styles.container}>
         <div className={styles.greeting}>
           <span>Hi there</span>
-          <span>I am <span>Ilya Budko</span></span>
+          <span>
+            I am <span>Ilya Budko</span>
+          </span>
           <h1>A frond-end developer</h1>
         </div>
-        <div className={styles.photo} >
-            <div className={styles.image}></div>
+        <div className={styles.photo}>
+          <div className={styles.image}></div>
         </div>
       </div>
     </div>
