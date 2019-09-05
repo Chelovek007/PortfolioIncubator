@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33726a4a-0957-4754-b51f-4d97b12976c8" name="Default Changelist" comment="Added &quot;react-particles-js&quot; for main page">
+    <list default="true" id="33726a4a-0957-4754-b51f-4d97b12976c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Assets/imgs/portfolio.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/prettierrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Header/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Header/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/imgs/oh10UKXTIHE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Main/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/MyProjects/MyProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/MyProjects/MyProjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componets/Titles/Titles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Titles/Titles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Particles/Particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Particles/Particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Slogan/Slogan.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +44,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Chelovek\Incubator\portfolio\src\Componets\Header" />
-      <recent name="E:\Chelovek\Incubator\portfolio\src\Componets" />
-      <recent name="E:\Chelovek\Incubator\portfolio\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Chelovek\Incubator\portfolio\src\Assets\imgs" />
       <recent name="E:\Chelovek\Incubator\portfolio\src\Componets\Slogan" />
       <recent name="E:\Chelovek\Incubator\portfolio\src\Componets\Skills" />
       <recent name="E:\Chelovek\Incubator\portfolio\src\Componets\MyProjects" />
       <recent name="E:\Chelovek\Incubator\portfolio\src\Componets\Footer" />
-      <recent name="E:\Chelovek\Incubator\portfolio\src\Componets\Contacts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Chelovek\Incubator\portfolio\src\Componets\Header" />
+      <recent name="E:\Chelovek\Incubator\portfolio\src\Componets" />
+      <recent name="E:\Chelovek\Incubator\portfolio\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,6 +104,7 @@
       <workItem from="1566926029713" duration="4376000" />
       <workItem from="1567015460000" duration="25000" />
       <workItem from="1567341349249" duration="15830000" />
+      <workItem from="1567707495016" duration="3868000" />
     </task>
     <task id="LOCAL-00001" summary="Added portfolio (lesson 3 almost finished)">
       <created>1567342019493</created>

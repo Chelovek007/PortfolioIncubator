@@ -46,16 +46,35 @@
 .btnSubmit {
   background: transparent;
   color: white;
-  height: 50px;
-  width: 30%;
+  /*height: 20px;*/
+  width: 20%;
+  padding: 0;
   border: none;
   margin: auto;
   outline: none;
   margin: 10px auto 30px auto;
   letter-spacing: 1.1px;
   text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
 }
-
+.btnSubmit:after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  background: #ff5005;
+  height: 10px;
+  left: 5%;
+  bottom: -40%;
+  z-index: -1;
+  transition: .3s;
+  cursor: pointer;
+}
+.btnSubmit:hover::after {
+  width: 110%;
+  height: 200%;
+  left: -5%;
+}
 /*меньше 1250px*/
 @media screen and (max-width: 1250px ) {
  .formWrapper {

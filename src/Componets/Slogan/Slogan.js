@@ -7,7 +7,7 @@ function Slogan() {
     <div className={styles.slogan}>
       <div className={styles.container}>
         <H2>I Am Available For Freelancer</H2>
-        <p>Hire me</p>
+        <a href="" className={styles.btnShow}>Hire me</a>
       </div>
     </div>
   );
