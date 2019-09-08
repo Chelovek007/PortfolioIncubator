@@ -2,7 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://Chelovek007.github.io/Portfolio_Incubator",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -16,7 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write src/**/*.js"
+    "prettier": "prettier --write src/**/*.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
