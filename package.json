@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Chelovek007.github.io/Portfolio_Incubator",
+  "homepage":"https://chelovek007.github.io/Portfolio_Incubator/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "prettier": "^1.18.2",
