@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 
 function Contacts() {
   return (
-    <div className={styles.contacts}>
+    <div id="contacts" className={styles.contacts}>
       <Fade>
         <div className={styles.container}>
           <H2>Contacts</H2>

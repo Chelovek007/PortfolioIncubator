@@ -23,7 +23,7 @@ const Skill = props => {
 
 const Skills = () => {
   return (
-    <div className={styles.skills}>
+    <div id={"skills"} className={styles.skills}>
       <Fade>
         <div className={styles.container}>
           <H2>My Skills</H2>

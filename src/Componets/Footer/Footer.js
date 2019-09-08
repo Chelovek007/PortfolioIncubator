@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import telegraIcon from "./../../Assets/imgs/telegram2.svg";
-import facebookIcon from "./../../Assets/imgs/facebook.svg";
-import likedinIcon from "./../../Assets/imgs/linkedin.svg";
+import whatsapp from "./../../Assets/imgs/whatsapp.svg";
 import vkIcon from "./../../Assets/imgs/vk.svg";
 import { Fade } from "react-reveal";
 
+const whatsAppLink = "https://wa.me/79100409095?text=Вы%20нам%20подходите";
+const vkLink = "https://vk.com/id40021474";
+const telegramLink = "tg://resolve?domain=Chelovek007";
 function Footer() {
   return (
     <div className={styles.footer}>
@@ -14,22 +16,17 @@ function Footer() {
           <p className={styles.name}>Ilya Budko</p>
           <div className={styles.blocks}>
             <div>
-              <a href="">
+              <a href={telegramLink}>
                 <img src={telegraIcon} alt="" />
               </a>
             </div>
             <div>
-              <a href="">
-                <img src={facebookIcon} alt="" />
+              <a href={whatsAppLink}>
+                <img src={whatsapp} alt="" />
               </a>
             </div>
             <div>
-              <a href="">
-                <img src={likedinIcon} alt="" />
-              </a>
-            </div>
-            <div>
-              <a href="">
+              <a href={vkLink}>
                 <img src={vkIcon} alt="" />
               </a>
             </div>

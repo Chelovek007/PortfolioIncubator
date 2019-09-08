@@ -7,7 +7,6 @@
 }
 .container {
   width: 80%;
-  border: 1px solid;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -22,12 +21,16 @@
 .blocks > div {
   height: 50px;
   width: 50px;
-  border: 1px solid;
+  border: 1px solid gray;
   border-radius: 50%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: 0.3s;
+}
+.blocks > div:hover {
+  border: 1px solid white;
 }
 .blocks > div > a {
   display: flex;
@@ -39,6 +42,9 @@
 }
 .blocks div:first-child img {
   width: 35%;
+}
+.blocks div:nth-child(2) img {
+  width: 40%;
 }
 .name {
   font-family: "Montserrat", sans-serif;

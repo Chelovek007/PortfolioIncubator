@@ -1,5 +1,5 @@
 .projects {
-  min-height: 1200px;
+  min-height: 800px;
   background-color: #1f1f20;
   display: flex;
   justify-content: center;
@@ -55,9 +55,9 @@
 }
 .container {
   width: 80%;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .container > div {
   display: flex;

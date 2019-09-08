@@ -3,6 +3,7 @@
   margin-right: 50px;
 }
 .navMenu > a {
+  cursor: pointer;
   padding-left: 45px;
   letter-spacing: 1px;
   text-decoration: none;

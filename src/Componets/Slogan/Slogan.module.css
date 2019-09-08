@@ -9,12 +9,14 @@
   padding: 0 10px 0 10px;
   box-sizing: border-box;
   width: 80%;
-  border: 1px solid;
   display: flex;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-flow: column;
+}
+.container > a {
+  cursor: pointer;
 }
 .btnShow {
   position: relative;

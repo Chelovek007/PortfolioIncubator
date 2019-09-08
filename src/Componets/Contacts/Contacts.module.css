@@ -9,9 +9,7 @@
   width: 80%;
   display: flex;
   justify-content: center;
-
   flex-direction: column;
-  border: 1px solid;
   align-items: center;
 }
 .formWrapper {
@@ -46,7 +44,7 @@
 .btnSubmit {
   background: transparent;
   color: white;
-  /*height: 20px;*/
+  text-align: center;
   width: 20%;
   padding: 0;
   border: none;
@@ -81,4 +79,13 @@
    width: 80%;
  }
 }
-
+@media screen and (max-width: 1500px) {
+  .btnSubmit {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 624px) {
+  .btnSubmit:after {
+    bottom: -20%;
+  }
+}
